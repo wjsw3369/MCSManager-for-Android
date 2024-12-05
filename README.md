@@ -1,4 +1,4 @@
-**此仓库原于 [zhuyejun520/Android-for-MCSManager](/zhuyejun520/Android-for-MCSManager)**
+**此仓库原于 [zhuyejun520/Android-for-MCSManager](https://github.com/zhuyejun520/Android-for-MCSManager)**
 因原作者地址失效无法使用，固此修改及完善与创新（正在制作中）
 
 前置工作：
