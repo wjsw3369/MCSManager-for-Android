@@ -11,14 +11,16 @@ sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/t
 ```
 
 使用方法：
-一.拉取mian.sh运行Android-for-MCSManager小白辅助脚本
+一.拉取mian.sh运行MCSManager-for-Android小白辅助脚本
 
 ```shell
 bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/mian.sh)
 ```
 
 ```shell
- 欢迎使用 MCSManager-for-Android 小白辅助脚本
+By: wjsw3369
+
+欢迎使用 MCSManager-for-Android 小白辅助脚本
  
 本机IP地址：(你的IP地址，用于局域网连接等使用)
 
@@ -29,7 +31,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Andro
 本脚本大部分操作基于 ZeroTermux
 
 请选择以下功能：
-1. 安装Android-for-MCSManager
+1. 安装MCSManager-for-Android
 2. 安装java21-环境
 3. 启动守护进程
 4. 启动Web进程
@@ -38,7 +40,7 @@ q. 退出
 请输入功能序号:
 ```
 
-二.输入1安装Android-for-MCSManager
+二.输入1安装MCSManager-for-Android
 
 三.输入2安装java环境
 
