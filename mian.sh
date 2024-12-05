@@ -12,9 +12,9 @@ bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Andro
 
 '
 
-#一键安装Android-for-MCSManager
+#一键安装MCSManager-for-Android
  MCSManager_Android() {
-    echo "> 安装Android-for-MCSManager"
+    echo "> 安装MCSManager-for-Android"
     bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/install.sh)
  }
 
