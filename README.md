@@ -5,16 +5,17 @@
 进度：只要网络支持，已经可以正常使用了，代理稍后
 
 
-前置工作：
+### 前置工作：
 
-1.更换清华源
+更换清华源（也可在ZeroTermux左侧工具栏更换）
 
 ```shell
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update
  -y && apt upgrade -y
 ```
 
-使用方法：
+### 使用方法：
+
 一. 拉取mian.sh运行MCSManager-for-Android小白辅助脚本
 
 ```shell
@@ -57,5 +58,7 @@ q. 退出
 ===========================================================================
 
 国内加速脚本：
+
     gitee：---
+    
     cloudflare代理：---
