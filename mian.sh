@@ -5,22 +5,24 @@ echo '
 By: wjsw3369
 
  欢迎使用 MCSManager-for-Android 小白辅助脚本
+
+  正在使用cloudflare网络代理
  '
 echo "本机IP地址： $ip_address"
 echo '
-bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/mian.sh)
+bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/proxy/mian.sh)
 
 '
 
 #一键安装MCSManager-for-Android
  MCSManager_Android() {
     echo "> 安装MCSManager-for-Android"
-    bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/install.sh)
+    bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/proxy/install.sh)
  }
 
  #安装java21环境
  java_install() {
-    bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/java21install.sh)
+    bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/proxy/java21install.sh)
  }
 
 #启动守护进程

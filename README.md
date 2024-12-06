@@ -1,8 +1,6 @@
-**此仓库原于 [zhuyejun520/Android-for-MCSManager](https://github.com/zhuyejun520/Android-for-MCSManager)**
+此分支用于存放代理所需执行文件
 
-因原作者地址失效无法使用，固此修改及完善与创新
-
-进度：只要网络支持，已经可以正常使用了，代理稍后
+进度：测试中...
 
 
 ### 前置工作：
@@ -19,17 +17,19 @@ sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/t
 一. 拉取mian.sh运行MCSManager-for-Android小白辅助脚本
 
 ```shell
-bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/mian.sh)
+bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/proxy/mian.sh)
 ```
 
 ```shell
 By: wjsw3369
 
-欢迎使用 MCSManager-for-Android 小白辅助脚本
+ 欢迎使用 MCSManager-for-Android 小白辅助脚本
+
+  正在使用cloudflare网络代理
  
 本机IP地址：(你的IP地址，用于局域网连接等使用)
 
-bash <(curl -sSL https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/main/mian.sh)
+bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/wjsw3369/MCSManager-for-Android/proxy/mian.sh)
 
 
 
@@ -56,9 +56,3 @@ q. 退出
 六. 网页打开：http://localhost:23333/
 
 ===========================================================================
-
-国内加速脚本：
-
-    gitee：---
-    
-    cloudflare代理：---

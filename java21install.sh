@@ -6,7 +6,7 @@ install() {
     pkg install openjdk-21 -y
     echo "安装完成..."
     exit
-    bash <(curl -sSL https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/main/mian.sh)
+    bash <(curl -sSL https://fxdl.wjsw.top/https://raw.githubusercontent.com/zhuyejun520/Android-for-MCSManager/proxy/mian.sh)
  }
 
  # 脚本入口
