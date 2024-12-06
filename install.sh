@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "安装运行库中..."
-pkg update
+yes "" | pkg update -y
 pkg install nodejs -y
 pkg install git -y
 
