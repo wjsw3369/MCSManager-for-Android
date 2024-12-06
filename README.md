@@ -2,7 +2,7 @@
 
 因原作者地址失效无法使用，固此修改及完善与创新
 
-进度：只要网络支持，已经可以正常使用了，代理稍后
+进度：只要网络支持，已经可以正常使用了，代理测试中...
 
 
 ### 前置工作：
@@ -59,6 +59,6 @@ q. 退出
 
 国内加速脚本：
 
-    gitee：---
+  gitee：---
     
-    cloudflare代理：---
+  cloudflare代理：[proxy分支](https://github.com/wjsw3369/MCSManager-for-Android/tree/proxy)
